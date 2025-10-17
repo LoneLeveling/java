@@ -4,4 +4,4 @@
 .idea/
 *.class
 *.iml
-src/
+out/

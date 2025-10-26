@@ -7,6 +7,7 @@ public class APProblem {
         }
         System.out.println();
         method2(a,d);
+
     }
 
     static void method2(int a, int d)

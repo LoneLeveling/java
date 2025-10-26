@@ -12,5 +12,6 @@ public class LC1716 {
         int sumOfPartialWeek = (int)((remDays /2.0) * (2 * (fullWeek + 1) + (remDays - 1)));
         int fullDaysSsum = sumOfFullWeek + sumOfPartialWeek;
         return fullDaysSsum;
+
     }
 }

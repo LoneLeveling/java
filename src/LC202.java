@@ -5,10 +5,11 @@ public class LC202
 {
     public static void main(String[] args) {
     int n=123;
-        HashSet<Integer> seenNumber = new HashSet<>();
-        while (n!=1&&!seenNumber.contains(n))
+        HashSet<Integer> seenNumber = new HashSet<>();//used hashset since it stores uniq values
+        while (n!=1&&!seenNumber.contains(n))//checking if n!=1 and number is not present in the hashset "seenNumber"
+            //is number is present already then we quit the while loop and return false, cuz only the numbers whose sum of digits end as being 1 are happy number
         {
-            seenNumber.add(n);
+            seenNumber.add(n);//calling helper function
            n=getSumOfSquares(n);
         }
 

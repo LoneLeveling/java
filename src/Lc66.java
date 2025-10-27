@@ -6,8 +6,6 @@ public class Lc66 {
         int[] digits={1,2,9,9};
         System.out.println(Arrays.toString(plusOne(digits)));
     }
-
-
     private static int[] plusOne(int[] digits)
     {
         for (int i =digits.length-1; i >=0 ; i--)

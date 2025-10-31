@@ -33,6 +33,5 @@ public class Lc50 {
         N/=2;
     }
         System.out.println(result);
-
     }
 }

@@ -7,6 +7,7 @@ public class CompositeNumber {
         {
             if (n%i==0)
                 System.out.println(n+" : is composite number");
+
             break;
         }
     }

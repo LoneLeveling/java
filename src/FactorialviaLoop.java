@@ -6,5 +6,6 @@ public class FactorialviaLoop {
             fact*=i;
         }
         System.out.println(fact);
+
     }
 }

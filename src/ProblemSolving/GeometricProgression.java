@@ -1,3 +1,5 @@
+package ProblemSolving;
+
 //Ques: Display this GP: 1, 2,4,8,.. up to n terms
 public class GeometricProgression {
     public static void main(String[] args) {

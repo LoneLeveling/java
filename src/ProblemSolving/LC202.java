@@ -1,3 +1,5 @@
+package ProblemSolving;
+
 import java.util.HashSet;
 
 //https://leetcode.com/problems/happy-number/submissions/1813316695/

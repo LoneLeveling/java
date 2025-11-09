@@ -1,3 +1,5 @@
+package ProblemSolving;
+
 public class ReverseOfaNumber {
     public static void main(String[] args) {
         int n=1286;

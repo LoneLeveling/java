@@ -1,4 +1,4 @@
-//Find highest number from 3 given nums using ternary operator
+package ProblemSolving;//Find highest number from 3 given nums using ternary operator
 
 public class TernaryOperator {
     public static void main(String[] args) {

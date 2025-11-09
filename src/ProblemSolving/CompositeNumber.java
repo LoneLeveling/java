@@ -1,3 +1,5 @@
+package ProblemSolving;
+
 //Number with more than 2 factors = composite
 public class CompositeNumber {
     public static void main(String[] args)

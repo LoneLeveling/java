@@ -1,3 +1,5 @@
+package ProblemSolving;
+
 //Print this series upto number which are +ve: 99,95,91,87,...
 public class APProblem {
     public static void main(String[] args) {

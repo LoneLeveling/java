@@ -1,3 +1,5 @@
+package ProblemSolving;
+
 //Need to print the sum of number and its reverse.
 //ex: num=153, rev=351, sum=num+rev=504
 public class PrintSumOfNumnRevers {

@@ -1,3 +1,5 @@
+package ProblemSolving;
+
 //Print all alphabets with their corresponding ASCII values
 public class PrintAlphabetsWithTheirASCIIValues {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package ProblemSolving;
+
 //Display this AP: 2, 5, 8, 11, 14,... upto 'n' terms
 public class ArithmeticProgression {
     public static void main(String[] args) {

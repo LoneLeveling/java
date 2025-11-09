@@ -1,4 +1,4 @@
-import java.util.concurrent.RecursiveTask;
+package ProblemSolving;
 
 public class Lc50 {
     public static void main(String[] args) {

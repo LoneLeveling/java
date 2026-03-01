@@ -35,8 +35,9 @@ public class Main {
             System.out.println(iterator.next());
         }
 
-        //        for (Integer integer:ourGenericList) //OR for(int x:list)
-        //        {
+        //  Using for-each loop
+//                for (Integer integer:ourGenericList) //OR for(int x:list)
+//                {
 //            System.out.println(integer);//OR System.out.println(x);
 //              }
 

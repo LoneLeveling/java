@@ -30,7 +30,7 @@ private int size;
         return new OurGenericListIterator(this);
     }
 
-    private class OurGenericListIterator implements Iterator<T> //we made this class private so that client cannot access this +Inner for the same reason
+    private class OurGenericListIterator implements Iterator<T> //we made this class private so that client cannot access this +Inner for the same reason i.e., encapsulated the implementation.
     {
 private OurGenericList<T> list;
 private int index=0;
@@ -38,16 +38,18 @@ private int index=0;
             this.list = list;
         }
 
-        @Override
-        public boolean hasNext() {
-            System.out.println("hasNext() called..");
-            return index<list.size;
-        }
+   @Override
+    public boolean hasNext() {
+        System.out.println("hasNext() called..");
+        return index<list.size;
+    }
 
         @Override
         public T next() {
             System.out.println("next() called..");
             return list.items[index++];
         }
+
+
     }
 }

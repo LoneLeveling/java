@@ -6,4 +6,7 @@ public class User {
     int age;
     String mailID;
     String password;
+
+    public User(Uzer.Builder builder) {
+    }
 }

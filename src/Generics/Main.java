@@ -1,5 +1,6 @@
 package Generics;
 
+import java.util.Arrays;
 import java.util.Iterator;
 
 public class Main {
@@ -28,6 +29,7 @@ public class Main {
         ourGenericList.add(100);
         System.out.println(ourGenericList.getItemAtIndex(5));
         System.out.println("Looping through the list:");
+
 
         Iterator<Integer> iterator = ourGenericList.iterator();
         while (iterator.hasNext())

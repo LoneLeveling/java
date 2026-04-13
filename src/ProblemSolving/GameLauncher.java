@@ -40,7 +40,7 @@ class GuessGame
     boolean p3IsRight=false;
 //    System.out.println("Number to guess is "+targetNumber);
 
- int guessp1= p1.guess();
+  int guessp1= p1.guess();
   int guessp2=p2.guess();
   int guessp3=p3.guess();
     System.out.println("Player 1 guessed: "+guessp1);

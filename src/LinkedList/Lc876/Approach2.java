@@ -34,7 +34,6 @@ fourth.next=fifth;
             var=var.next;
         }
     }
-
     static ListNode2 middleNode(ListNode2 head){
     ListNode2 slow=head;
     ListNode2 fast=head;

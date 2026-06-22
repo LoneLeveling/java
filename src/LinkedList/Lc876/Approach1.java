@@ -31,7 +31,6 @@ public class Approach1 //Simple approach: we iterate find the length and then fe
             var=var.next;
         }
     }
-
      static ListNode middleNode(ListNode head) {
           ListNode curr=head;
           int length=0;

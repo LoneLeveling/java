@@ -53,11 +53,12 @@ public class lc206 {
     {
         ListNode prev = null;
         ListNode curr = head;
-
+        ListNode nextNode=null;
         while(curr != null)
         {
             // Save next node
-            ListNode nextNode = curr.next;
+
+            nextNode = curr.next;
 
             // Reverse link
             curr.next = prev;

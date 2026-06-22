@@ -1,20 +1,19 @@
 package LinkedList.Lc876;
-//https://leetcode.com/problems/middle-of-the-linked-list/description/
 
-
-public class Approach1 {
+public class Approach1 //Simple approach: we iterate find the length and then fetch the mid
+{
     public static void main(String[] args) {
-//Creating a linked list
-ListNode head=new ListNode(10);
-ListNode second=new ListNode(20);
-ListNode third=new ListNode(30);
-ListNode fourth=new ListNode(40);
-ListNode fifth=new ListNode(50);
+        //Creating a linked list
+        ListNode head=new ListNode(10);
+        ListNode second=new ListNode(20);
+        ListNode third=new ListNode(30);
+        ListNode fourth=new ListNode(40);
+        ListNode fifth=new ListNode(50);
 //connecting the nodes
-head.next=second;
-second.next=third;
-third.next=fourth;
-fourth.next=fifth;
+        head.next=second;
+        second.next=third;
+        third.next=fourth;
+        fourth.next=fifth;
 
 //Traversal
         ListNode tmp=head;
@@ -25,24 +24,29 @@ fourth.next=fifth;
         }
 
         System.out.println("Calling the method to return the mid of linked list(lc-876)");
-        ListNode slow=middleNode(head); //slow points to the middle node
-        ListNode var=slow;//we start iterating from middle node
-        while(var!=null){//null is = last location so we iterate till null from mid, printing the list while we iterate
+        ListNode var=middleNode(head);
+        while (var!=null)
+        {
             System.out.println(var.val);
             var=var.next;
         }
     }
 
-    static ListNode middleNode(ListNode head){
-    ListNode slow=head;
-    ListNode fast=head;
+     static ListNode middleNode(ListNode head) {
+          ListNode curr=head;
+          int length=0;
+          while(curr!=null){
+             length++;
+             curr=curr.next;
+          }
 
-    while(fast!=null&&fast.next!=null){
-        slow=slow.next;
-        fast=fast.next.next;
-    }
-    return slow;
-    }
+          int mid=length/2;
+          curr=head;
+          for(int i=0;i<mid;i++){
+          curr=curr.next;
+          }
+          return curr;
+     }
 }
 
 

@@ -1,6 +1,6 @@
 package Recursion;
-
-public class code1 {
+//Print numbers in decreasing order
+public class Code1 {
     public static void main(String[] args) {
         int n=5;
         printDecreasing(n);
@@ -10,7 +10,7 @@ public class code1 {
         if(n==0){
             return;
         }
-        printDecreasing(n-1);
         System.out.println(n);
+        printDecreasing(n-1);
     }
 }

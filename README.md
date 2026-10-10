@@ -1,2 +1,2 @@
-# java Foundation Problems
-EXPLORE DIFFERENT BRANCHES FOR LEARNING
+# Java Foundation Problems
+Explore Different Branches For Learning
